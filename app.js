@@ -53,9 +53,16 @@ function sayHi() {
 // PHASES
 
 //  EXECUTION CONTEXTNI 3 FAZASI
-// CREATION PHASE ( yaratish bosqichi )
+// 1. CREATION PHASE ( yaratish bosqichi )
+
 // 1. Bu Boshqichda JS Engine Kodni O'qib Oladi
 // 2. Scope Aniqlaydi ( lexical environmenthosil bo'ladi )
-// 3. var --- rlon qlinsa qiymati undefined qlib qo'yiladi
+// 3. var --- elon qlinsa qiymati undefined qlib qo'yiladi
 // 4. let ba const elon qlinsa Temporal Dead Zone ( TDZ: Vaqtinchalik O'lik Zona ) ga Tushadi
 // 5. function deklareshnlar to'liq tanasi bilan Memory ga yuklanadi
+
+// 2. Execution Phase ( bajarish bosqichi )
+// 1. Bu Bosqichda Kod Qadamma Qadam Bajariladi
+// 2. O'zgaruvchilarga Qiymat Beriladi
+// 3. Funksiyalar Chaqiriladi
+// 4. Expressionlar Hisoblanadi
