@@ -49,3 +49,13 @@ function sayHi() {
 // var sayHello = function () {
 //   console.log("Hello!");
 // };
+
+// PHASES
+
+//  EXECUTION CONTEXTNI 3 FAZASI
+// CREATION PHASE ( yaratish bosqichi )
+// 1. Bu Boshqichda JS Engine Kodni O'qib Oladi
+// 2. Scope Aniqlaydi ( lexical environmenthosil bo'ladi )
+// 3. var --- rlon qlinsa qiymati undefined qlib qo'yiladi
+// 4. let ba const elon qlinsa Temporal Dead Zone ( TDZ: Vaqtinchalik O'lik Zona ) ga Tushadi
+// 5. function deklareshnlar to'liq tanasi bilan Memory ga yuklanadi
